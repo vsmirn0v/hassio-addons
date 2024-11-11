@@ -40,6 +40,7 @@ RUN \
 ADD --link rootfs /
 
 ENV CONFIG_PATH=/data/options.json
+ENV ROOT_PATH=/app
 LABEL \
   io.hass.version="2.8.0" \
   io.hass.type="addon" \

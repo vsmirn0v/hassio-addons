@@ -11,17 +11,18 @@ arch:
 startup: application
 boot: auto
 init: false
-full_access: true
+full_access: false
 usb: true
 video: true
-ingress: false
+ingress: true
+ingress_port: 5000
 privileged:
   - PERFMON
 ports:
   5000/tcp: 5000
 ports_description:
   5000/tcp: Web interface
-webui: "[PROTO:http]://[HOST]:[PORT:5000]/"
+#webui: "[PROTO:http]://[HOST]:[PORT:5000]/"
 map:
   - config:rw
 environment:
