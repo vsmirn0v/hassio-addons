@@ -1,5 +1,5 @@
-name: CodeProject AI.Server (CPU)
-version: 2.5.1
+name: CodeProject AI.Server
+version: 2.8.0
 url: https://hub.docker.com/r/codeproject/ai-server
 image: ghcr.io/vsmirn0v/hassio-addon-ai.server-{arch}
 panel_icon: mdi:face-recognition
